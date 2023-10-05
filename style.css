@@ -1,0 +1,94 @@
+*{
+
+    box-sizing: border border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(15, 15, 15);
+}
+
+.row__poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100%;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row__posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row__posters{
+    max-height: 250px;
+}
+
+.row__poster{
+    max-height: 250px;
+}
+
+.row__poster:hover{
+       transform: scale(1.08);
+}
+
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row__poster{
+    max-height: 250px;
+    max-width: 150px;
+}
+
+.row{
+    color:red;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.Benz{
+    background-image: url("images/Banner4.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    object-fit: contain;
+    height: 350px;
+
+}
+
+.Benz__contents{
+    margin-left: 30px;
+    padding-top: 40px;
+    height: 190px;
+    text-align: center;
+}
+
+.Benz__title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+    margin-top: 70px;
+}
+
+
+.nav__logo{
+     width: 80px;
+     object-fit: contain;
+}
+
+.nav__avatar{
+    width: 60px;
+    object-fit: contain;
+    float: right;
+    object-position: top;
+}
+
+.contact{
+    background-color: red;
+}
+
+
